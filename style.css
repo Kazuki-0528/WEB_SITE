@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace, "Hannari";
   line-height: 1.7;
   color: #432;
 }
@@ -60,15 +60,16 @@ a {
 }
 
 .home-content p {
+  font-family: "Hannari";
   font-size: 1.25rem;
-  margin: 10px 0 42px;
+  margin: 10px 0 30px;
 }
 
 /* 見出し */
 
 .page-title {
   font-size: 3rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Hannari";
   text-transform: uppercase;
   font-weight: normal;
 }
