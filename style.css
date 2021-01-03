@@ -97,7 +97,7 @@ a {
 
 #home {
   /* background-image: url(images/logo2.jpg); */
-  background-image: linear-gradient(#c9ffbf, #ffafbd);
+  background-image: url(images/spa-686389_1920.jpg);
   min-height: 100vh;
 }
 
@@ -241,17 +241,15 @@ article p {
   margin: 10px 0 0;
 }
 
-.grid {
-  display: grid;
-  gap: 26px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin-top: 6px;
-  margin-bottom: 50px;
+.menu-main {
+  text-align: center;
 }
 
-.grid img {
-  height: 150px;
-  width: 200px;
+/* Contact */
+
+#contact {
+  background-image: url(images/flower.jpg);
+  min-height: 100vh;
 }
 
 /* モバイル版 */
