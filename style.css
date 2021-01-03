@@ -29,6 +29,19 @@ a {
   list-style: none;
 }
 
+.nav__link {
+  margin-left: 30px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(250, 215, 239);
+  min-width: 50px;
+  font-size: 11px;
+  font-size: 10px;
+}
+
 .main-nav li {
   margin-left: 36px;
 }
@@ -110,6 +123,7 @@ a {
 
 #home .page-title {
   text-transform: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* NEWS */
@@ -122,6 +136,7 @@ a {
 
 #news .page-title {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* footer */
@@ -241,6 +256,20 @@ article p {
 
 .menu-content .page-title {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-main {
+  height: 425px;
+}
+
+.menu-main h2 {
+  padding-top: 30px;
+}
+
+.menu-main p {
+  padding-top: 15px;
+  font-size: 2px solid;
 }
 
 .menu-content p {
