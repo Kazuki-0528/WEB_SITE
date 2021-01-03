@@ -7,7 +7,7 @@ html {
 body {
   font-family: "Courier New", Courier, monospace, "Hannari";
   line-height: 1.7;
-  color: #432;
+  color: rgb(250, 250, 250);
 }
 
 a {
@@ -59,9 +59,9 @@ a {
   margin-top: 10%;
 }
 
-.home-content p {
+.home-content h3 {
   font-family: "Hannari";
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin: 10px 0 30px;
 }
 
@@ -78,14 +78,14 @@ a {
 
 .button {
   font-size: 1.3rem;
-  background: rgb(208, 106, 138);
+  background: rgba(208, 106, 138, 0.753);
   color: #fff;
-  border-radius: 5px;
+  border-radius: 30px;
   padding: 18px 32px;
 }
 
 .button:hover {
-  background: rgba(208, 106, 138, 0.822);
+  background: rgba(208, 106, 138, 0.568);
 }
 
 /* 大きな背景画像 */
@@ -98,7 +98,7 @@ a {
 
 #home {
   /* background-image: url(images/logo2.jpg); */
-  background-image: url(images/spa-686389_1920.jpg);
+  background-image: url(images/bg.jpg);
   min-height: 100vh;
 }
 
@@ -109,7 +109,7 @@ a {
 /* NEWS */
 
 #news {
-  background-image: linear-gradient(#c9ffbf, #ffafbd);
+  background-image: url(images/bg.jpg);
   height: 270px;
   margin-bottom: 40px;
 }
@@ -224,7 +224,7 @@ article p {
 /* Menu */
 
 #menu {
-  background-image: linear-gradient(#c9ffbf, #ffafbd);
+  background-image: url(images/bg.jpg);
   min-height: 500px;
 }
 
@@ -347,13 +347,15 @@ iframe {
     font-size: 2.5rem;
   }
 
-  .main-nav {
-    font-size: 1rem;
-    margin-top: 10px;
+  .nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 55px;
+    background-color: #ddd;
   }
 
-  .main-nav li {
-    margin: 0 20px;
+  .main-nav {
   }
 
   .home-content {
