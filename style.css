@@ -107,16 +107,7 @@ a {
   background: rgba(208, 106, 138, 0.568);
 }
 
-/* 大きな背景画像 */
-
-.big-bg {
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-}
-
 #home {
-  /* background-image: url(images/logo2.jpg); */
   background-image: url(images/bg.jpg);
   min-height: 100vh;
 }
@@ -154,17 +145,9 @@ footer p {
 
 /* 記事部分 */
 
-article {
-  width: 74%;
-}
-
-aside {
-  width: 22%;
-}
-
 .news-contents {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 50px;
 }
 
@@ -202,14 +185,18 @@ aside {
   font-weight: normal;
 }
 
-.post-title,
-.post-cat {
+.post-title {
   margin-left: 120px;
+}
+
+article {
+  text-align: center;
 }
 
 article img {
   margin-bottom: 20px;
-  width: 74%;
+  width: 50%;
+  height: 50%;
 }
 
 article p {
@@ -383,17 +370,12 @@ iframe {
     flex-direction: column;
   }
 
-  article,
-  aside {
+  article {
     width: 100%;
   }
 
   #news .page-title {
     margin-top: 30px;
-  }
-
-  aside {
-    margin-top: 60px;
   }
 
   .post-info {
@@ -415,11 +397,6 @@ iframe {
     font-size: 1.37;
   }
 
-  .post-cat {
-    font-size: 0.87;
-    margin-top: 10px;
-  }
-
   .post-title,
   .post-cat {
     margin-left: 80px;
@@ -429,14 +406,6 @@ iframe {
 
   #contact .page-title {
     margin-top: 40px;
-  }
-
-  /* フォーム */
-
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    max-width: 100%;
   }
 
   /* 店舗情報 */
