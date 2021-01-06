@@ -233,7 +233,13 @@ article p {
 
 #menu {
   background-image: url(images/bg.jpg);
-  min-height: 500px;
+  height: 270px;
+  margin-bottom: 40px;
+}
+
+#menu .page-title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu-content {
