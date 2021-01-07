@@ -7,7 +7,7 @@ html {
 body {
   font-family: "Courier New", Courier, monospace, "Hannari";
   line-height: 1.7;
-  color: rgb(36, 36, 36);
+  color: rgb(88, 87, 87);
 }
 
 a {
@@ -27,6 +27,7 @@ a {
   text-transform: uppercase;
   margin-top: 34px;
   list-style: none;
+  z-index: 1;
 }
 
 .nav__link {
@@ -181,7 +182,7 @@ footer p {
 
 .post-title {
   font-family: "Courier New", Courier, monospace;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -253,21 +254,19 @@ article p {
 }
 
 .menu-main {
-  height: 425px;
+  height: 600px;
 }
 
 .menu-main h2 {
   padding-top: 30px;
 }
 
-.menu-main p {
+.menu-main h3 {
   padding-top: 15px;
-  font-size: 2px solid;
-}
-
-.menu-content p {
-  font-size: 1.12rem;
-  margin: 10px 0 0;
+  margin-bottom: 10px;
+  background-color: #bbbbbb28;
+  outline: 1px solid rgba(171, 171, 171, 0.269);
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 19%);
 }
 
 .menu-main {
