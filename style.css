@@ -278,7 +278,13 @@ article p {
 
 #place {
   background-image: url(images/bg.jpg);
-  /* min-height: 100vh; */
+  height: 270px;
+  margin-bottom: 40px;
+}
+
+#place .page-title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* 店舗情報 */
