@@ -1,6 +1,7 @@
 /* 共通部分 */
 
-html {
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    _::-webkit-full-page-media, _:future, :root html {
   font-size: 100%;
 }
 
@@ -436,3 +437,4 @@ iframe {
     margin-bottom: 30px;
   }
 }
+
