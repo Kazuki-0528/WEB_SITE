@@ -130,19 +130,6 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* footer */
-
-footer {
-  background: rgba(68, 51, 34, 0.555);
-  text-align: center;
-  padding: 26px 0;
-}
-
-footer p {
-  color: #fff;
-  font-size: 0.87rem;
-}
-
 /* 記事部分 */
 
 .news-contents {
