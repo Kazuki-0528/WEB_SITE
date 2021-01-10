@@ -1,4 +1,10 @@
 /* 共通部分 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 100%;
 }
@@ -30,7 +36,6 @@ a {
 }
 
 .nav__link {
-  margin-left: 30px;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -344,7 +349,6 @@ iframe {
     align-items: center;
     flex: 1;
     color: rgb(232, 84, 185);
-    min-width: 50px;
     font-size: 11px;
     transition: background-color 0.2s ease-in-out;
   }
