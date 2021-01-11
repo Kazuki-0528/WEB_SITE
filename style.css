@@ -36,14 +36,17 @@ a {
 }
 
 .nav__link {
+  margin-left: 20px;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(250, 215, 239);
+  color: rgb(255, 231, 238);
   min-width: 50px;
-  font-size: 11px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Hannari";
 }
 
 .main-nav li {
@@ -342,6 +345,7 @@ iframe {
   }
 
   .nav__link {
+    margin-left: 0;
     text-decoration: none;
     display: flex;
     flex-direction: column;
