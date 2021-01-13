@@ -49,6 +49,10 @@ a {
   font-family: "Hannari";
 }
 
+.nav__link i {
+  display: none;
+}
+
 .main-nav li {
   margin-left: 36px;
 }
@@ -355,6 +359,10 @@ iframe {
     color: rgb(232, 84, 185);
     font-size: 11px;
     transition: background-color 0.2s ease-in-out;
+  }
+
+  .nav__link i {
+    display: contents;
   }
 
   .nav__link:hover {
