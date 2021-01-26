@@ -13,6 +13,7 @@ body {
   font-family: "Courier New", Courier, monospace, "Hannari";
   line-height: 1.7;
   color: rgb(88, 87, 87);
+  background-color: rgb(254, 245, 227);
 }
 
 a {
@@ -47,6 +48,11 @@ a {
   font-size: 18px;
   font-weight: 400;
   font-family: "Hannari";
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: rgba(161, 223, 116, 0.699);
 }
 
 .nav__link i {
@@ -62,7 +68,7 @@ a {
 }
 
 .main-nav a:hover {
-  color: rgb(208, 106, 138);
+  color: rgb(160, 223, 116);
 }
 
 .page-header {
@@ -84,7 +90,7 @@ a {
 }
 
 .home-content h3 {
-  font-family: "Hannari";
+  font-family: "ヒラギノ明朝 Pro W3", "ＭＳ 明朝";
   font-size: 1.5rem;
   margin: 10px 0 30px;
   color: rgb(255, 238, 210);
@@ -100,7 +106,7 @@ a {
 .page-title {
   font-size: 3rem;
   font-weight: 900;
-  font-family: "Hannari";
+  font-family: "ヒラギノ明朝 Pro W3", "ＭＳ 明朝";
   text-transform: uppercase;
   font-weight: normal;
   color: rgb(255, 238, 210);
@@ -348,7 +354,7 @@ iframe {
     position: fixed;
     bottom: 0;
     height: 55px;
-    background-color: #ddd;
+    background-color: rgb(117, 88, 67);
     box-shadow: 2px -1px 9px 0px rgb(255 239 96);
     overflow-x: auto;
     z-index: 1;
@@ -362,7 +368,7 @@ iframe {
     justify-content: center;
     align-items: center;
     flex: 1;
-    color: rgb(232, 84, 185);
+    color: white;
     font-size: 11px;
     transition: background-color 0.2s ease-in-out;
   }
@@ -372,7 +378,7 @@ iframe {
   }
 
   .nav__link:hover {
-    color: rgb(247, 34, 179);
+    color: rgba(161, 223, 116, 0.699);
     background-color: rgba(203, 203, 203, 0.406);
   }
 
