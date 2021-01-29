@@ -139,7 +139,7 @@ a {
 }
 
 #home {
-  background-image: url(images/nagomi.jpg);
+  background-image: url(images/bg.jpg);
   background-size: cover;
   min-height: 100vh;
   background-position: center center;
@@ -245,6 +245,9 @@ article p {
 }
 
 /* Menu */
+.menu-body {
+  height: 1400px;
+}
 
 #menu {
   background-image: url(images/bg.jpg);
@@ -268,7 +271,9 @@ article p {
 }
 
 .menu-main {
-  height: 600px;
+  height: 530px;
+  width: 650px;
+  margin: 0 auto;
 }
 
 .menu-main h2 {
@@ -347,17 +352,42 @@ iframe {
   margin: 0 auto;
 }
 
-/* ページトップボタン　 */
-.page-top {
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  z-index: 99;
+/* アコーディオンパネル */
+dt {
+  line-height: 35px;
+  height: 35px;
+  font-size: large;
+  text-indent: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(117, 88, 67, 0.562);
+  border-bottom: 1px solid white;
 }
 
-.page-top i {
-  font-size: 3rem;
+dd {
+  margin: 0;
+  background-color: #d4d4d4;
+}
+
+dd p {
+  margin: 0;
+  padding: 20px;
+}
+
+dd:hover {
+  background-color: #d4d4d4ac;
   cursor: pointer;
+}
+
+dt.selected {
+  background-color: rgb(118, 74, 60);
+  color: rgb(160, 223, 116);
+}
+
+.question {
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
 }
 
 /* モバイル版 */
@@ -456,6 +486,15 @@ iframe {
 
   .post-title {
     margin-left: 80px;
+  }
+
+  /* Menu */
+  .menu-main {
+    width: 400px;
+  }
+
+  .question {
+    width: 400px;
   }
 
   /* Contact */
