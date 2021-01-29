@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Courier New", Courier, monospace, "Hannari";
+  font-family: "Roboto", "Noto Sans JP", sans-serif;
   line-height: 1.7;
   color: rgb(88, 87, 87);
   background-color: rgb(254, 245, 227);
@@ -47,7 +47,6 @@ a {
   min-width: 50px;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Hannari";
   transition: 0.3s;
 }
 
@@ -83,57 +82,66 @@ a {
 }
 
 /* Home */
-
 .home-content {
   text-align: center;
-  margin-top: 10%;
+  padding-top: 250px;
 }
 
 .home-content h3 {
-  font-family: "ヒラギノ明朝 Pro W3", "ＭＳ 明朝";
-  font-size: 1.5rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem;
   margin: 10px 0 30px;
   color: rgb(255, 238, 210);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .home-content h4 {
-  color: rgb(255, 238, 210);
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 5px;
+  color: rgba(161, 223, 116, 0.699);
+  text-transform: uppercase;
 }
 
 /* 見出し */
-
 .page-title {
   font-size: 3rem;
-  font-weight: 900;
-  font-family: "ヒラギノ明朝 Pro W3", "ＭＳ 明朝";
+  letter-spacing: 5px;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: 1000;
   color: rgb(255, 238, 210);
+  font-family: "Roboto", sans-serif;
 }
 
 /* ボタン */
 
+.menu_nav {
+  display: flex;
+  justify-content: space-around;
+}
+
 .button {
-  font-size: 1.3rem;
-  background: rgba(208, 106, 138, 0.753);
-  color: #fff;
-  border-radius: 30px;
-  padding: 18px 32px;
+  width: 200px;
+  font-size: 1rem;
+  font-weight: 80;
+  color: rgb(253, 252, 252);
+  background-color: rgba(117, 88, 67, 0.562);
+  border: 1px solid #fff;
+  padding: 5px 50px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
 }
 
 .button:hover {
-  background: rgba(208, 106, 138, 0.568);
+  color: rgba(161, 223, 116, 0.699);
+  opacity: 0.6;
 }
 
 #home {
-  background-image: url(images/bg.jpg);
+  background-image: url(images/nagomi.jpg);
+  background-size: cover;
   min-height: 100vh;
-}
-
-#home .page-title {
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-position: center center;
 }
 
 /* NEWS */
@@ -338,15 +346,50 @@ iframe {
   margin: 0 auto;
 }
 
+/* ページトップボタン　 */
+.page-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 99;
+}
+
+.page-top i {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
 /* モバイル版 */
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
   .page-title {
     font-size: 2.5rem;
   }
 
+  .page-top {
+    display: none;
+  }
+
+  .menu_nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-content {
+    padding-top: 100px;
+  }
+
   .home-content h3 {
     font-size: 1rem;
+  }
+
+  .button {
+    margin-bottom: 30px;
+  }
+
+  #home {
+    background-size: auto 1000px;
   }
 
   .nav {
