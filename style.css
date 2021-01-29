@@ -404,7 +404,7 @@ dt.selected {
   }
 
   .home-content {
-    padding-top: 10px;
+    padding-top: 50px;
   }
 
   .home-content h3 {
@@ -413,10 +413,6 @@ dt.selected {
 
   .button {
     margin-bottom: 30px;
-  }
-
-  #home {
-    /* background-size: auto 1000px; */
   }
 
   .nav {
@@ -450,10 +446,6 @@ dt.selected {
   .nav__link:hover {
     color: rgba(161, 223, 116, 0.699);
     background-color: rgba(203, 203, 203, 0.406);
-  }
-
-  .home-content {
-    margin-top: 20%;
   }
 
   .page-header {
