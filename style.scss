@@ -374,15 +374,15 @@ b {
   font-size: 14px;
 }
 
-/* Contact */
+/* Access */
 
-#place {
+#access {
   background-image: url(images/bg.jpg);
   height: 270px;
   margin-bottom: 40px;
 }
 
-#place .page-title {
+#access .page-title {
   text-align: center;
   font-size: 3rem;
   letter-spacing: 5px;
@@ -396,11 +396,16 @@ b {
 
 #location {
   padding: 4% 0;
+  background-image: url(images/white_00033.jpg);
 }
 
 #location .wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+#location .sub-title {
+  color: #754a3d;
 }
 
 .location-info {
@@ -409,6 +414,10 @@ b {
 
 .location-info p {
   padding: 12px 10px;
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .location-map {
