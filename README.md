@@ -1,4 +1,6 @@
-https://user-images.githubusercontent.com/60289223/106353859-ebc3f480-6330-11eb-8f3b-6e95c186a387.jpg
+# README
+
+![Index - MacBook Air - 30-1-2021 at 午後7 18 40](https://user-images.githubusercontent.com/60289223/106353859-ebc3f480-6330-11eb-8f3b-6e95c186a387.jpg)
 
 # 和(なごみ)
 
