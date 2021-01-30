@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>和</title>
   </head>
-  <body>
+  <body class="concept-html">
     <div id="concept" class="big-bg">
       <header class="page-header wrapper">
         <h1>
@@ -30,7 +30,7 @@
 
         <nav class="nav">
           <a href="concept.html" class="nav__link"
-            ><i class="material-icons">fiber_new</i><span>news</span></a
+            ><i class="material-icons">fiber_new</i><span>concept</span></a
           >
 
           <a href="menu.html" class="nav__link"
@@ -60,17 +60,36 @@
       </article>
     </div>
 
+    <h2 class="post-title">お仕事帰りなど、いつでも気軽にお立ち寄り下さい。</h2>
+
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="images/nagomi1.jpg" /></div>
-        <div class="swiper-slide"><img src="images/nagomi2.jpeg" /></div>
-        <div class="swiper-slide"><img src="images/nagomi3.jpeg" /></div>
+        <div class="swiper-slide">
+          <div class="slide-img zoom"><img src="images/nagomi1.jpg" /></div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-img translate1">
+            <img src="images/nagomi2.jpeg" />
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-img translate2">
+            <img src="images/nagomi3.jpeg" />
+          </div>
+        </div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-scrollbar"></div>
     </div>
+
+    <h2 class="post-title">
+      お客様一人一人のご要望に出来る限りお応えしておりますので、<br />
+      お気軽にお申し付け下さい。ご来店を心よりお待ちしております。
+    </h2>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
