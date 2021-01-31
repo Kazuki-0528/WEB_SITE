@@ -276,7 +276,7 @@ article img {
 
 /* Menu */
 .menu-body {
-  height: 1400px;
+  height: 1500px;
 }
 
 #menu {
@@ -303,12 +303,14 @@ article img {
   color: #754a3d;
   letter-spacing: 2px;
   text-align: center;
+  margin-bottom: 37px;
 }
 
 .menu-img {
   background-image: url(images/nagomi1.jpg);
   background-size: cover;
   background-position: center center;
+  margin-bottom: 37px;
 }
 
 .container {
@@ -396,7 +398,6 @@ b {
 
 #location {
   padding: 4% 0;
-  background-image: url(images/white_00033.jpg);
 }
 
 #location .wrapper {
@@ -442,6 +443,13 @@ iframe {
 
 #sns .sub-title {
   margin-bottom: 30px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem;
+  line-height: 36px;
+  font-weight: 700;
+  color: #754a3d;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .sns-box {
@@ -484,6 +492,16 @@ dt.selected {
   margin: 0 auto;
   text-align: center;
   width: 600px;
+}
+
+.question p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem;
+  line-height: 36px;
+  font-weight: 400;
+  color: #754a3d;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 /* モバイル版 */
