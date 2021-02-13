@@ -153,6 +153,11 @@ a {
   margin-bottom: 40px;
 }
 
+.slide-img {
+  height: 500px;
+  width: 500px;
+}
+
 #concept .page-title {
   text-align: center;
   font-size: 3rem;
@@ -164,10 +169,6 @@ a {
 }
 
 /* 記事部分 */
-.concept-html {
-  height: 1600px;
-}
-
 .concept-contents {
   display: flex;
   flex-direction: column;
@@ -205,8 +206,9 @@ article img {
   overflow: hidden;
   padding: 20px 0;
   height: 40vw;
-  max-height: 600px; //最大の高さ
-  min-height: 400px; //最小の高さ
+  max-height: 450px; //最大の高さ
+  width: 500px;
+  margin-bottom: 30px;
 
   .swiper-slide {
     text-align: center;
@@ -275,10 +277,6 @@ article img {
 }
 
 /* Menu */
-.menu-body {
-  height: 1700px;
-}
-
 #menu {
   background-image: url(images/bg.jpg);
   height: 270px;
@@ -468,6 +466,7 @@ dt {
   color: white;
   background-color: rgba(117, 88, 67, 0.562);
   border-bottom: 1px solid white;
+  cursor: pointer;
 }
 
 dd {
@@ -482,7 +481,6 @@ dd p {
 
 dd:hover {
   background-color: #d4d4d4ac;
-  cursor: pointer;
 }
 
 dt.selected {
@@ -504,6 +502,10 @@ dt.selected {
   color: #754a3d;
   letter-spacing: 2px;
   text-align: center;
+}
+
+.question > p {
+  margin-top: 30px;
 }
 
 /* モバイル版 */
@@ -578,6 +580,9 @@ dt.selected {
     flex-direction: column;
     align-items: center;
   }
+  .concept-html {
+    height: 1420px;
+  }
 
   #news .page-title {
     margin-top: 30px;
@@ -592,8 +597,16 @@ dt.selected {
   }
 
   /* Menu */
+  .menu-body {
+    height: 1700px;
+  }
+
   .question {
     width: 300px;
+  }
+
+  .swiper-container {
+    width: 270px;
   }
 
   /* 店舗情報 */
